@@ -89,7 +89,10 @@ def main(args):
     best_val_nll_E = float('inf')
     best_log_p_0_E = float('inf')
     best_denoise_match_E = float('inf')
+<<<<<<< HEAD
     
+=======
+>>>>>>> 625f9ed312b6398b7bcd63ecca3ceacf7f6a404b
 
     # Create the directory for saving model checkpoints.
     model_cpt_dir = f"{args.dataset}_cpts"
